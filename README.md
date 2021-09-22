@@ -37,16 +37,36 @@
 
 ***Ответ:***
 
+Создал два пустых репозитория в github:
+
+* [kibana-role](https://github.com/romrsch/kibana-role)
+* [filebeat-role](https://github.com/romrsch/filebeat-role)
+
 Создал файл `requirements.yml` и с помощью команды скачал её себе.
 
 ```
 romrsch@ubuntu:~/8.4/playbook$ ansible-galaxy install -r requirements.yml --roles-path ./
 ```
+![alt](https://i.ibb.co/Vq6jTGv/Screenshot-2.jpg)
+
 
 >Создать новый каталог с ролью при помощи ansible-galaxy role init kibana-role.
 ```
 romrsch@ubuntu:~/8.4/playbook$ ansible-galaxy role init kibana-role
 ```
 ![alt](https://i.ibb.co/w0bFdXc/Screenshot-12.jpg)
+
+> Создать новый каталог с ролью при помощи ansible-galaxy role init filebeat-role.
+> 
+```
+romrsch@ubuntu:~/8.4/playbook$ ansible-galaxy role init filebeat-role
+```
+![alt](https://i.ibb.co/HKLnZjv/Screenshot-3.jpg)
+
+ссылки на репозитории
+
+* [kibana-role](https://github.com/romrsch/kibana-role)
+* [filebeat-role](https://github.com/romrsch/filebeat-role)
+
 
 --
